@@ -4,109 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
     <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
     <title>Document</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-            border: 0;
-            text-decoration: none;
+        .main_second{
+            margin-top: 120px;
         }
-        header{
-            overflow-y: hidden;
-            display: flex;
-            justify-content: space-between;
-            width: 98%;
-            height: auto;
-            background-color: rgba(37,37,37,255);
-            padding: 20px 1rem;
+        .main_second_left_ext{
+            width: 50%;
+            margin: auto;
         }
-        header .logo{
-            max-width: 100%;
-            padding-left: 12px;
-            margin: 9px;
-            margin-top: 13px;
-            color: white;
+        .main_second_left{
+            width: 100%;
         }
-        .Navbar ul{
-            display: flex;
-            margin-right: 20px;
+        .main_second_left p{
+            margin: auto;
+            color: #333;
+
+            margin-bottom: 20px;
+            font-size: 20px;
+            font-weight: 400;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        }
+        .main_second_left h2{
+            color: #f76d37;
+            font-weight: bolder;
+            font-size: 40px;
+            text-align: left;
+            margin-bottom: 17px;
         }
 
-        .Navbar li{
-            list-style-type: none;
-            padding: 10px;
-        }
-        .Navbar li a {
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-weight: normal;
-            line-height: 1.80857;
-            font-size: 23px;
+        .main_second_left_ext button{
+            margin-top: 22px;
+            background-color: black;
+            border-radius: 8px;
             color: white;
-        }
-        
-        .Navbar li a:hover{
-            cursor: pointer;
-            transition: 1s;
-            font-size: 24px;
-            color: #f76d37
-        }
-        .icon i:hover{
-            transition:1s;
-            color: #f76d37 ;
             font-size: 20px;
+            padding: 15px;
+
         }
-        main{
-            background-image: url(Images/banner-bg.png);
-            width: 100%;
-            height: 500px;
-            background-size: 100%;
-            padding: 10px 0 25px 0px;
-            background-repeat: no-repeat;
-        }
-        .First-Indication{
+        .main_second{
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             justify-content: center;
             align-items: center;
-            width: 50%;
-            text-align: center;
-            font-weight: 200;
-        }        
-        .First-Indication h2{
-            font-family:Georgia, 'Times New Roman', Times, serif;
-            margin-top: 80px;
-            width: 100%;
-            margin-left: -26px;
-            float: left;
-            font-size: 45px;
-            margin-bottom: 23px;
-            color: rgb(22, 21, 21);
         }
-        .First-Indication h1{
-            color: white;
-            font-size: 80px;
-            margin-left: -26px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            margin-bottom: 12px;
-            font-weight: bolder;
+        .main_second_right{
+            max-width: 50%;
         }
-        .First-Indication p{
-            font-size: 20px;
-            color: white;
-            width: 70%;
+        .main_second_right img{
+            max-width: 80%;
+            height: auto;
         }
-        .First-Indication button{
-            border: 1px solid black;
-            background-color: black;
-            color: white;
-            padding: 10px;
-            margin: 10px;
-            border-radius: 12px;
-            font-size: 20px;
-            margin-top: 20px;
-        }
+
     </style>
 </head>
 <body>
@@ -141,16 +92,35 @@
                 </div>
             </header>
             <main>
-                <div class="First-Indication">
-                    <h2>OutStanding</h2>
-                    <h1>Coffee Shop</h1>
-                    <p>
-                        A coffeehouse, coffee shop, or café is an establishment that serves various types of coffee, espresso, latte, americano and cappuccino.
-                    </p>
-
-                    <button>
-                        Order Now 
-                    </button>
+                <div class="main_first">
+                    <div class="First-Indication">
+                        <h2>OutStanding</h2>
+                        <h1>Coffee Shop</h1>
+                        <p>
+                            A coffeehouse, coffee shop, or café is an establishment that serves various types of coffee, espresso, latte, americano and cappuccino.
+                        </p>
+    
+                        <button>
+                            Order Now 
+                        </button>
+                    </div>
+                </div>
+                <div class="main_second">
+                    <div class="main_second_left">
+                        <div class="main_second_left_ext">
+                            <h2>ABOUT US</h2>
+                            <p>
+                            Full cleaning and housekeeping services for companies and households.
+                            </p> 
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.Lorem Ipsum is simply
+                            </p>
+                            <button>Read More</button>
+                        </div>
+                    </div>
+                    <div class="main_second_right">
+                        <img src="Images/about-img.png" alt="">
+                    </div>
                 </div>
             </main>
 
