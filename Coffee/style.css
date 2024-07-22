@@ -150,3 +150,39 @@ header .logo{
     max-width: 80%;
     height: auto;
 }
+
+.menu_icon{
+    display: none;
+}
+@media screen and (max-width:960px) {
+    .menu_icon{
+        display: block;
+    }
+    .Navbar ul li:not(.menu_icon){
+        display: none;
+    }
+}
+@media screen and (max-width:1020px){
+    .First-Indication{
+        overflow: hidden;
+    }
+    .First-Indication p{
+        display: none;
+    }
+    .First-Indication h2{
+        margin: 10px;
+        font-size: 25px;
+    }
+    .First-Indication h1{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width:600px) {
+    .First-Indication h2{
+        margin-top: 20px;
+    }
+    .First-Indication h1{
+        font-size: 50px;
+        width: 100%;
+    }
+}
