@@ -8,12 +8,16 @@
     <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
     <title>Document</title>
     <style>
-        .navbar-toggler-icon{
-            background-image: url('data:image/svg+xml;…');
+        .menu_icon{
+            display: none;
         }
         @media screen and (max-width:960px) {
-            
-
+            .menu_icon{
+                display: block;
+            }
+            .Navbar ul li:not(.menu_icon){
+                display: none;
+            }
 
             
         }
@@ -47,10 +51,9 @@
                                 <i class="fa fa-search" aria-hidden="true" ></i>
                             </a>
                         </li>
-                        <li>
-                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
-                                        <g transform="translate(55.04,55.04) scale(0.57,0.57)"><g fill="#252525" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M-96.5614,352.5614v-449.12281h449.12281v449.12281z" id="bgRectangle"></path></g><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M5,8c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h40c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175zM5,23c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h40c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175zM5,38c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h40c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175z"></path></g></g></g>
-                                        </svg>
+                        <li class="menu_icon">
+                            <img src="Images/icons8-menu-50 (4).png" alt="">
+                            
                         </li>
                     </ul>
                 </div>
