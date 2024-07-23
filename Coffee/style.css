@@ -4,7 +4,7 @@
     padding: 0;
     border: 0;
     text-decoration: none;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 header{
     display: flex;
@@ -102,7 +102,7 @@ header .logo{
 }
 
 .main_second{
-    margin-top: 120px;
+    margin-top: 100px;
 }
 .main_second_left_ext{
     width: 50%;
@@ -114,7 +114,6 @@ header .logo{
 .main_second_left p{
     margin: auto;
     color: #333;
-
     margin-bottom: 20px;
     font-size: 20px;
     font-weight: 400;
@@ -185,4 +184,14 @@ header .logo{
         font-size: 50px;
         width: 100%;
     }
+}
+
+@media screen and (max-width:800px) {
+    .main_second{
+        margin-top: -100px;
+    }
+    .main_second_left_ext p{
+        font-size:12px;
+    }
+    
 }
