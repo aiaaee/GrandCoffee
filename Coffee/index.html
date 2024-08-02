@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
     <title>Document</title>
     <style>
@@ -17,9 +18,36 @@
             margin: auto;
         }
         .first_column img{
-            margin: 12px 12px;
             border-radius: 12px;
         }
+        
+        .column_position{
+            position: relative;
+            margin: 12px 12px;
+        }
+        .text{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 99%;
+            border-radius: 12px;
+            margin: 0;
+            padding-bottom: -12px;
+            opacity: 0;
+            background-color: rgb(100, 100, 100, .6);
+            transition: 0.8s all ease;
+        }
+        .text:hover{
+            opacity: 1;
+        }
+        .text i{
+            position: absolute;
+            top: 40%;
+            left: 40%;
+            color: white;
+            font-size: 70px;
+        }
+          
     </style>
 </head>
 <body>
@@ -97,19 +125,82 @@
                     </div>
                     <div class="pictures_browser">
                         <div class="first_column">
-                            <img src="Images/Untitled-1-7.jpg" width="450px" height="350px" /> 
-                            <img src="Images/img-2.png"  width="450px" height="350px" /> 
-                            <img src="Images/img-3.png" width="450px" height="350px" /> 
+                            <div class="column_position">
+                                <img src="Images/Untitled-1-7.jpg" width="100%" height="350px" /> 
+                                    <div class="text">
+                                        <a href="#">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                            </div>
+                            <div class="column_position">
+                                <img src="Images/img-2.png" width="100%" height="350px" /> 
+                                    <div class="text">
+                                        <a href="#">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                            </div>
+                            <div class="column_position">
+                                <img src="Images/img-3.png" width="100%" height="350px" /> 
+                                    <div class="text">
+                                        <a href="#">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                            </div>
                         </div>
                         <div class="first_column">
-                            <img src="Images/img-4.png" width="450px" height="350px" /> 
-                            <img src="Images/img-5.png"  width="450px" height="350px" /> 
-                            <img src="Images/img-6.png" width="450px" height="350px" /> 
+                            <div class="column_position">
+                                <img src="Images/img-4.png" width="100%" height="350px" /> 
+                                    <div class="text">
+                                        <a href="#">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                            </div>
+                            <div class="column_position">
+                                <img src="Images/img-5.png" width="100%" height="350px" /> 
+                                    <div class="text">
+                                        <a href="#">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                            </div>
+                            <div class="column_position">
+                                <img src="Images/img-6.png" width="100%" height="350px" /> 
+                                    <div class="text">
+                                        <a href="#">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                            </div>
                         </div>
                         <div class="first_column">
-                            <img src="Images/img-7.png" width="450px" height="350px" /> 
-                            <img src="Images/img-8.png"  width="450px" height="350px" /> 
-                            <img src="Images/img-9.png" width="450px" height="350px" /> 
+                            <div class="column_position">
+                                <img src="Images/img-7.png" width="100%" height="350px" /> 
+                                    <div class="text">
+                                        <a href="#">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                            </div>
+                            <div class="column_position">
+                                <img src="Images/img-8.png" width="100%" height="350px" /> 
+                                    <div class="text">
+                                        <a href="#">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                            </div> 
+                            <div class="column_position">
+                                <img src="Images/img-9.png" width="100%" height="350px" /> 
+                                    <div class="text">
+                                        <a href="#">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                            </div>
                         </div>
 
                     </div>
