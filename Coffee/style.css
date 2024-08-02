@@ -153,6 +153,27 @@ header .logo{
 .menu_icon{
     display: none;
 }
+
+.main_third{
+    margin-top: 80px;
+}
+.main_third h1{
+    color: #f76d37;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.main_third p{
+    padding-top: 16px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 100;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
 @media screen and (max-width:960px) {
     .menu_icon{
         display: block;
@@ -192,6 +213,9 @@ header .logo{
     }
     .main_second_left_ext p{
         font-size:12px;
+    }
+    .main_second_left_ext button{
+        display: none;
     }
     
 }
