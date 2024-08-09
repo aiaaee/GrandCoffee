@@ -227,7 +227,131 @@ header .logo{
     transition: 0.5s;
 }
 
+.main_fourth{
+    background-image: url('./Images/services-bg.png');
+    width: 100%;
+    height: auto;
+    padding-top: 400px;
+    padding-bottom: 100px;
+    background-position: center center;
+    background-repeat: repeat-x;
+    background-attachment:fixed ;
+}
+.main_fourth h1{
+    text-align: center;
+    margin: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: white;
+}
+.main_fourth .text_title{
+    text-align: center;
+    font-size: 20px;
+    margin-top:10px ;
+    color: white;
+}
+.card_postals{
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 42px;
+}
+.header_top_card{
+    overflow-y:hidden;
+    height:300px;
+    border: 1px solid inherit;
+    width: 25%;
+    margin: 20px 12px;
+    color: wheat;
+    background-color:#f76d37 ;
+    border-radius: 12px 10px 12px 10px;
+}
+.header_top_card .postal_image {
+    padding: 10px;
+    text-align: center;
+    margin-top: 12px;
+}
+.header_top_card h2{
+    text-align: center;
+    margin-top: 12px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.header_top_card p{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.div_button_postal{
+    text-align: center;
+    margin-bottom: 12px;
+}
+.button_display_postal{
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 52px;
 
+}
+.header_top_card:hover{
+    height: 400px;
+    background-color: wheat;
+    color: black;
+    transition: 1s;
+}
+.main_fivth{
+    color: #f76d37;
+    text-align: left;
+    max-width:800px ;
+    margin: 80px 170px;
+}
+.first_section_fivth{
+    margin-left: 12px;
+}
+.main_fivth h1{
+    font-size: 50px;
+}
+.main_fivth p{
+    margin-top: 15px;
+    font-size: 20px;
+    color: #333;
+    text-align: left;
+    margin-bottom: 62px;
+}
+.review{
+    margin: auto;
+    text-align: center;
+    max-width: 100%;
+    padding: 10px;
+    padding-left: 20px;
+}
+.review form{
+    width: 100%;
+}
+.review fieldset{
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    display: inline;
+}
+.review legend{
+    font-weight: bolder;
+    padding-right: 12px;
+    font-size: 40px;
+    padding-left: 12px;
+}
+.review p{
+    line-height: 2rem;
+    font-weight: bold;
+    font-size: 19px;
+    padding-left: 14px;
+}
 
 @media screen and (max-width:960px) {
     .menu_icon{
