@@ -7,6 +7,7 @@ A website for ordering coffee from a coffee shop
 
 In this project , try to explain about diffrent type of coffee and describe our product to make a efficiency for clients . develop easy way and simple accessibility is one of our goal to make a responsive web page.
 
+
 ![grandCoffee](https://github.com/user-attachments/assets/b13b9996-929e-4b3e-ba0c-621d95f614ce)
 
 
