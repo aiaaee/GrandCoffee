@@ -353,6 +353,102 @@ header .logo{
     padding-left: 14px;
 }
 
+
+.main_sixth{
+    width: 100%;
+    display: flex;
+}
+.left_section_sixth{
+    width: 50%;
+    border: 1px solid black;
+    background-image: url('./Images/img-9.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left_section_sixth input , .left_section_sixth textarea{
+    border: 1px solid inherit;
+    font-weight: normal;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px; 
+    color: #666666;
+    text-align: left;
+    line-height: 1.4rem;
+    padding:11px 8px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+.left_section_sixth textarea{
+    resize: none;
+}
+.section_sixth_div h2{
+    margin-top: 10px;
+    color: white;
+}
+.section_sixth_div div{
+    border: 1px solid white;
+    margin-bottom: 16px;
+}
+.section_sixth_div button{
+    border: 1px solid #f76d37;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 12px;
+    font-size: 18px;
+    background-color: #f76d37;
+}
+.section_sixth_div:first-child{
+    margin-top: 32px;
+}
+
+.section_sixth_div{
+    width: 80%;
+    margin: auto;
+}
+
+.right_section_sixth{
+    width: 50%;
+}
+
+
+footer{
+    margin-top: 12px;
+    display: flex;
+    height: 350px;
+    background-color: #333;
+    color: white;
+    justify-content: center;
+    align-self: center;
+}
+footer ul{
+    margin-top: 46px; 
+    margin-left: 22px;
+}
+footer li{
+    list-style: none;
+    line-height: 1.5rem;
+    margin-bottom: 12px;
+    margin-left: 4px;
+}
+.Menu li :hover{
+    color:#f76d37;
+    cursor: pointer;
+}
+.Link li:hover{
+    color: #f76d37;
+    cursor: pointer ;
+}
+.tmp{
+    margin-top: 6px;
+    border: 1px solid white;
+    margin-bottom: 28px;
+}
+.About , .Menu , .Contact , .Link{
+    width: 15%; 
+}
+
+
 @media screen and (max-width:960px) {
     .menu_icon{
         display: block;
