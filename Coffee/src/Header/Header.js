@@ -3,6 +3,8 @@ import './style.css'
 import { IoSearchSharp } from "react-icons/io5";
 import {FaBars , FaTimes} from 'react-icons/fa'
 import { styles , Data } from './data';
+import 'bootstrap/dist/css/bootstrap.css';
+
 function Header(){
     const [show , setShow] = useState(false)
     let MenuSidebar = () => {
@@ -10,7 +12,7 @@ function Header(){
     } 
     
     return(
-        <header className={`${show ? "header_height" : ""}`}>
+        <header1 className={`${show ? "header_height" : ""}`}>
             <div className="logo">
                 <img src="Images/logo.png" alt="" />
             </div>
@@ -27,7 +29,7 @@ function Header(){
                             )
                         })
                     }
-                    <li>
+                    <li style={{marginTop:"-7px"}}>
                         <a class="icon" href="">
                             <IoSearchSharp style={{fontSize:"30px" , marginTop:'3px'}}/>
                         </a>
@@ -41,7 +43,7 @@ function Header(){
                         }
                 </li>
             </div>
-        </header>
+        </header1>
     )
 }
 

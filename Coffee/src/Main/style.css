@@ -1,9 +1,12 @@
 
 .main_first{
     background-image: url(./../../public/Images/banner-bg.png);
-    width: 100%;
-    height: 500px;
-    background-size: 100%;
+    max-width: 1150px;
+    height: 600px;
+    background-clip:border-box;
+    background-size:cover;
+    background-position: center center;
+    margin-top: 25px;
     padding: 10px 0 25px 0px;
     background-repeat: no-repeat;
 }
@@ -29,10 +32,10 @@
 .First-Indication h1{
     color: white;
     font-size: 80px;
-    margin-left: -26px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 12px;
     font-weight: bolder;
+    text-align: center;
 }
 .First-Indication p{
     font-size: 20px;
@@ -48,4 +51,59 @@
     border-radius: 12px;
     font-size: 20px;
     margin-top: 20px;
+}
+.Carousel-h3{
+    overflow: hidden;
+}
+
+/* @media screen and (max-width:1020px){
+    
+    .First-Indication h2{
+        margin: 10px;
+        font-size: 35px;
+    }
+    .First-Indication h1{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width:600px) {
+    .First-Indication h2{
+        margin-top: 20px;
+    }
+    .First-Indication h1{
+        font-size: 60px;
+        width: 100%;
+    }
+} */
+
+
+@media screen and (max-width:975px){
+    .First-Indication h1{
+        font-size: 60px;
+        width: 100%;
+    }
+    .First-Indication h2{
+        font-size: 35px;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .main_first{
+        height: 400px;
+    }
+    .First-Indication p{
+        display: none;
+    }
+    .First-Indication h2{
+        font-size: 25px;
+    }
+    .First-Indication h1{
+        font-size: 40px;
+        width: 100%;
+    }
+    .Carousel_image{
+        height: 100px;
+        width: 500px; 
+    }
 }

@@ -1,17 +1,17 @@
 import React from "react";
 import './style.css'
+import 'bootstrap/dist/css/bootstrap.css';
 
 function Main(){
     return(
         <>
-        <div class="main_first">
+        <div class="main_first container">
                 <div class="First-Indication">
-                    <h2>OutStanding</h2>
-                    <h1>Coffee Shop</h1>
+                    <h2>Coffee For Coffee People</h2>
+                    <h1>Welcome Our Coffee</h1>
                     <p>
-                        A coffeehouse, coffee shop, or café is an establishment that serves various types of coffee, espresso, latte, americano and cappuccino.
+                        Live your life with energy and start your day with black coffee.
                     </p>
-
                     <button>
                         Order Now 
                     </button>
