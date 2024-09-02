@@ -1,0 +1,51 @@
+
+.main_first{
+    background-image: url(./../../public/Images/banner-bg.png);
+    width: 100%;
+    height: 500px;
+    background-size: 100%;
+    padding: 10px 0 25px 0px;
+    background-repeat: no-repeat;
+}
+.First-Indication{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    font-weight: 200;
+}        
+.First-Indication h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 80px;
+    width: 100%;
+    margin-left: -26px;
+    float: left;
+    font-size: 45px;
+    margin-bottom: 23px;
+    color: rgb(22, 21, 21);
+}
+.First-Indication h1{
+    color: white;
+    font-size: 80px;
+    margin-left: -26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 12px;
+    font-weight: bolder;
+}
+.First-Indication p{
+    font-size: 20px;
+    color: white;
+    width: 70%;
+}
+.First-Indication button{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 12px;
+    font-size: 20px;
+    margin-top: 20px;
+}
