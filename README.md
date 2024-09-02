@@ -1,6 +1,6 @@
 # GrandCoffee
-A website for ordering coffee from a coffee shop
 
+First of all I develop the project in HTML & CSS without any effecting on events , but now I decided to set up it in React with more options and innovations . 
 
 ![Coffee](https://github.com/user-attachments/assets/355992f3-cdab-4edf-9845-55cc620caf88)
 
