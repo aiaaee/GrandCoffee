@@ -2,9 +2,8 @@ import React from 'react'
 
 // Components
 import Header from './Header/Header'
-import Main2 from './Main/Main2'
-import Main from './Main/Main'
-
+import WebCarousel from './Main/Carousel'
+import Intro from './Main/Intro'
 
 function App(){
     return(
@@ -12,8 +11,8 @@ function App(){
 
             <Header />
             
-            <Main2 />
-            <Main />
+            <WebCarousel />
+            <Intro />
         </>
     )
 } 

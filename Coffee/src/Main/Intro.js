@@ -2,7 +2,7 @@ import React from "react";
 import './style.css'
 import 'bootstrap/dist/css/bootstrap.css';
 
-function Main(){
+function Intro(){
     return(
         <>
         <div class="main_first container">
@@ -22,4 +22,4 @@ function Main(){
     )
 }
 
-export default Main ; 
+export default Intro ; 

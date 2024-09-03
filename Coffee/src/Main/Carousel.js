@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
 import './style.css'
-export default function Main2() {
+export default function WebCarousel() {
   return (
     <div style={{ display: 'block', width: '100%' , height:'100%'  }} >
       <Carousel>
