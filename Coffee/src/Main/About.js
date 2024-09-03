@@ -6,9 +6,9 @@ function About(){
         setShow(!show)
     }
     return(
-        <div class="main_second" >
-            <div class="main_second_left">
-                <div class="main_second_left_ext">
+        <div className="main_second" >
+            <div className="main_second_left">
+                <div className="main_second_left_ext">
                     <h2>ABOUT US</h2>
                     <p>
                     Full cleaning and housekeeping services for companies and households.
@@ -24,7 +24,7 @@ function About(){
                     }</button>
                 </div>
             </div>
-            <div class="main_second_right">
+            <div className="main_second_right">
                 <img src="Images/about-img.png" alt="" />
             </div>
         </div>

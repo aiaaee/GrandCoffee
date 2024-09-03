@@ -30,7 +30,7 @@ function Header(){
                         })
                     }
                     <li style={{marginTop:"-7px"}}>
-                        <a class="icon" href="">
+                        <a className="icon" href="">
                             <IoSearchSharp style={{fontSize:"30px" , marginTop:'3px'}}/>
                         </a>
                     </li>

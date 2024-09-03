@@ -5,8 +5,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 function Intro(){
     return(
         <>
-            <div class="main_first container">
-                    <div class="First-Indication">
+            <div className="main_first container">
+                    <div className="First-Indication">
                             <h2>Coffee For Coffee People</h2>
                             <h1>Welcome Our Coffee</h1>
                             <p>
