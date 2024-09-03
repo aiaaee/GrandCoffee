@@ -1,5 +1,6 @@
 import React from "react";
-import './Gallery.css'
+import './gallery.css'
+import { IoSearchSharp } from "react-icons/io5";
 
 function Gallery(){
     return(
@@ -11,12 +12,15 @@ function Gallery(){
                 </p>
             </div>
             <div class="pictures_browser">
+                
                 <div class="first_column">
                     <div class="column_position">
                         <img src="Images/Untitled-1-7.jpg" width="100%" height="350px" /> 
                             <div class="text">
                                 <a href="#">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    <i class="fa fa-search" aria-hidden="true">
+                                        <IoSearchSharp/>
+                                    </i>
                                 </a>
                             </div>
                     </div>
@@ -24,7 +28,9 @@ function Gallery(){
                         <img src="Images/img-2.png" width="100%" height="350px" /> 
                             <div class="text">
                                 <a href="#">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    <i class="fa fa-search" aria-hidden="true">
+                                        <IoSearchSharp/>
+                                    </i>
                                 </a>
                             </div>
                     </div>
@@ -32,7 +38,9 @@ function Gallery(){
                         <img src="Images/img-3.png" width="100%" height="350px" /> 
                             <div class="text">
                                 <a href="#">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    <i class="fa fa-search" aria-hidden="true">
+                                        <IoSearchSharp/>
+                                    </i>
                                 </a>
                             </div>
                     </div>
@@ -42,7 +50,9 @@ function Gallery(){
                         <img src="Images/img-4.png" width="100%" height="350px" /> 
                             <div class="text">
                                 <a href="#">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    <i class="fa fa-search" aria-hidden="true">
+                                        <IoSearchSharp/>
+                                    </i>
                                 </a>
                             </div>
                     </div>
@@ -50,7 +60,9 @@ function Gallery(){
                         <img src="Images/img-5.png" width="100%" height="350px" /> 
                             <div class="text">
                                 <a href="#">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    <i class="fa fa-search" aria-hidden="true">
+                                        <IoSearchSharp/>
+                                    </i>
                                 </a>
                             </div>
                     </div>
@@ -58,7 +70,9 @@ function Gallery(){
                         <img src="Images/img-6.png" width="100%" height="350px" /> 
                             <div class="text">
                                 <a href="#">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    <i class="fa fa-search" aria-hidden="true">
+                                        <IoSearchSharp/>
+                                    </i>
                                 </a>
                             </div>
                     </div>
@@ -68,7 +82,9 @@ function Gallery(){
                         <img src="Images/img-7.png" width="100%" height="350px" /> 
                             <div class="text">
                                 <a href="#">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    <i class="fa fa-search" aria-hidden="true">
+                                        <IoSearchSharp/>
+                                    </i>
                                 </a>
                             </div>
                     </div>
@@ -76,7 +92,9 @@ function Gallery(){
                         <img src="Images/img-8.png" width="100%" height="350px" /> 
                             <div class="text">
                                 <a href="#">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    <i class="fa fa-search" aria-hidden="true" style={{left:'40%'}}>
+                                        <IoSearchSharp/>
+                                    </i>
                                 </a>
                             </div>
                     </div> 
@@ -84,7 +102,9 @@ function Gallery(){
                         <img src="Images/img-9.png" width="100%" height="350px" /> 
                             <div class="text">
                                 <a href="#">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    <i class="fa fa-search" aria-hidden="true">
+                                        <IoSearchSharp/>
+                                    </i>
                                 </a>
                             </div>
                     </div>
