@@ -6,6 +6,7 @@ import WebCarousel from './Main/Carousel'
 import Intro from './Main/Intro'
 import About from './Main/About'
 import Gallery from './Main/Gallery'
+import Suggest from './Main/Suggest'
 
 function App(){
     return(
@@ -17,6 +18,7 @@ function App(){
             <Intro />
             <About />
             <Gallery />
+            <Suggest /> 
         </>
     )
 } 

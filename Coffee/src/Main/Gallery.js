@@ -128,9 +128,6 @@ function Gallery(){
                     )
                     : <div className="text-danger text-center">Please try to connect VPN</div>
                 }
-                
-
-
 
                 <center>
                     <button className="pictures_browser_button" onClick={fetchImage}>See more</button>
