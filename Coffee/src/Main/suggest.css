@@ -125,3 +125,22 @@
         overflow: hidden;
     }
 }
+
+
+@media screen and (max-width:555px){
+    .header_top_card p{
+        display: none;
+    }
+    .header_top_card button{
+        padding: 4px;
+        outline: auto;
+        background-color: #f76d37;
+        border: none;
+        color: white;
+    }
+    .header_top_card button:hover{
+        color: blue;
+        background-color: wheat;
+        transition: 1s;
+    }
+}
