@@ -1,48 +1,70 @@
 import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import './Reviews.css'
+
 function Review(){
-    let ClientsReview = [
-        {id : 1 , author : 'sara jones' , job:'ux designer' , image : `Images/Client1.jpg` } , 
-        {id : 2 , author : "jack robert" , job: "Mechanic" , image: `Images/Client2.jpg`} , 
-        {id : 2 , author : "emily brandon" , job: "Driver" , image: `Images/Client3.jpg`} , 
+    const settings = {
+        dots: true,
+        fade: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        waitForAnimate: false
+      };
 
-    ]
-    return(
-        ClientsReview.map(items => {
-            return (
-                <div className="Review_wrapper">
-                    
-                    <section className="Reviewcontainer">
-                        <div className="title">
-                        <h2>our reviews</h2>
-                        <div className="underline"></div>
-                        </div>
-                        <article className="review">
-                        <div className="img-container">
-                            <img src={items.image} id="person-img" alt="" />
-                        </div>
-                        <h4 id="author">{items.author}</h4>
-                        <p id="job">{items.job}</p>
-                        <p id="info">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-                            asperiores debitis incidunt, eius earum ipsam cupiditate libero?
-                            Iste, doloremque nihil?
-                        </p>
-                        <div className="button-container">
-                            <button className="prev-btn">
-                            <i className="fas fa-chevron-left"></i>
-                            </button>
-                            <button className="next-btn">
-                            <i className="fas fa-chevron-right"></i>
-                            </button>
-                        </div>
-                        <button classNameName="random-btn">surprise me</button>
-                        </article>
-                    </section>
+      return(
+        <div className="ReviewConatiner">
+        <div class="title">
+          <h2>our reviews</h2>
+          <div class="underline"></div>
+        </div>
+        <article class="review">
+            <Slider {...settings}>
+                <div className="Item">
+                    <div class="img-container" style={{marginTop:"3px"}}>
+                        <img src='Images/Client1.jpg' id="person-img" alt="" />
+                    </div>
+                    <h4 id="author">sara jones</h4>
+                    <p id="job">ux designer</p>
+                    <p id="info">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                        asperiores debitis incidunt, eius earum ipsam cupiditate libero?
+                        Iste, doloremque nihil?
+                    </p>
                 </div>
-            )
-        })
-    )    
-}
 
-export default Review ; 
+                <div className="Item">
+                    <div class="img-container">
+                        <img src="Images/Client2.jpg" id="person-img" alt="" />
+                    </div>
+                    <h4 id="author">sara jones</h4>
+                    <p id="job">ux designer</p>
+                    <p id="info">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                        asperiores debitis incidunt, eius earum ipsam cupiditate libero?
+                        Iste, doloremque nihil?
+                    </p>
+                </div>
+
+
+                <div className="Item">
+                    <div class="img-container">
+                        <img src="Images/Client3.jpg" id="person-img" alt="" />
+                    </div>
+                    <h4 id="author">sara jones</h4>
+                    <p id="job">ux designer</p>
+                    <p id="info">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                        asperiores debitis incidunt, eius earum ipsam cupiditate libero?
+                        Iste, doloremque nihil?
+                    </p>
+                </div>
+            </Slider>
+        </article>
+        </div>
+      )
+}
+export default Review; 

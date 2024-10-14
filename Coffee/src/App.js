@@ -8,19 +8,17 @@ import About from './Main/About'
 import Gallery from './Main/Gallery'
 import Suggest from './Main/Suggest'
 import Review from './Main/Reviews'
-
 function App(){
     return(
         <>
 
             <Header />
-            
             <WebCarousel />
             <Intro />
             <About />
             <Gallery />
-            <Suggest /> 
-            <Review/>
+            <Suggest />
+            <Review />  
         </>
     )
 } 
