@@ -7,6 +7,7 @@ import Intro from './Main/Intro'
 import About from './Main/About'
 import Gallery from './Main/Gallery'
 import Suggest from './Main/Suggest'
+import Review from './Main/Reviews'
 
 function App(){
     return(
@@ -19,6 +20,7 @@ function App(){
             <About />
             <Gallery />
             <Suggest /> 
+            <Review/>
         </>
     )
 } 
